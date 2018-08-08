@@ -3,8 +3,38 @@
 <head> 
   <meta charset="UTF-8">
   <title>TO DO app</title>
+  <link rel="stylesheet" href="css/_reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="js/script.js"></script>
 </head>
 <body>
-
+  <div class="wrapper">
+    <div class="head">
+      TO DO LIST
+    </div>
+  <form action="">
+    <input class="todo-name" type="text" placeholder=" Wpisz co masz zrobić...">
+    <input class="submit" type="submit" value="Dodaj">
+  </form>
+  <ul class="todoapp">
+    <li>
+      <label>
+        <input type="checkbox">
+        <span><i class="fa fa-check"></i></span>
+        Kup budyń
+      </label>
+    </li>
+    <li>
+        <label>
+          <input type="checkbox">
+          <span><i class="fa fa-check"></i></span>
+          Pizza
+        </label>
+      </li>
+  </ul>
+  </div>
 </body>
 </html>
